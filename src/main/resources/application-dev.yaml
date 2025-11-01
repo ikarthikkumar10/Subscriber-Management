@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+app:
+  environment: development
+
+logging:
+  level:
+    root: DEBUG
+    com:
+      telecom:
+        subscriber_mgt_api:
+          Subscriber_Management: TRACE
+
+# Development features
+features:
+  debug-mode: true
+  mock-data: true

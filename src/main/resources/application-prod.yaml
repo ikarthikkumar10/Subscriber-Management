@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+app:
+  environment: production
+
+logging:
+  level:
+    root: WARN
+    com:
+      telecom:
+        subscriber_mgt_api:
+          Subscriber_Management:    INFO
+
+# Production features
+features:
+  debug-mode: false
+  mock-data: false
